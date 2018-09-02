@@ -1,0 +1,2 @@
+C:\Users\br1code\Documents\BR1CODE\Visual Studio Dir\SimplificationExercise\SimplificationExercise\obj\Debug\SimplificationExercise.csprojAssemblyReference.cache
+C:\Users\br1code\Documents\BR1CODE\Visual Studio Dir\SimplificationExercise\SimplificationExercise\obj\Debug\SimplificationExercise.csproj.CoreCompileInputs.cache
