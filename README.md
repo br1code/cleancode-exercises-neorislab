@@ -37,21 +37,24 @@ public class Person
 Then, create a [Payment](https://github.com/br1code/cleancode-exercises-neorislab/blob/master/SimplificationExercise/Exercise1/Payment.cs) class with a method called **GetPaymentAmount** that receives a [Person](https://github.com/br1code/cleancode-exercises-neorislab/blob/master/SimplificationExercise/Exercise1/Person.cs) and determine the type of payment using a switch statement based in the **Status** of that [Person](https://github.com/br1code/cleancode-exercises-neorislab/blob/master/SimplificationExercise/Exercise1/Person.cs)
 
 ```C#
-public double GetPaymentAmount(Person person)
+public class Payment
 {
-    switch (person.Status)
+    public double GetPaymentAmount(Person person)
     {
-        case Person.PersonStatus.Dead:
-            return GetDeadAmount();
+        switch (person.Status)
+        {
+            case Person.PersonStatus.Dead:
+                return GetDeadAmount();
 
-        case Person.PersonStatus.Retired:
-            return GetRetiredAmount();
+            case Person.PersonStatus.Retired:
+                return GetRetiredAmount();
 
-        case Person.PersonStatus.Separated:
-            return GetSeparatedAmount();
+            case Person.PersonStatus.Separated:
+                return GetSeparatedAmount();
 
-        default:
-            return GetNormalPayAmount();
+            default:
+                return GetNormalPayAmount();
+        }
     }
 }
 ```
