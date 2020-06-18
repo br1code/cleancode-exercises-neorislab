@@ -318,3 +318,6 @@ public class Manager : Employee
 
 Now, we can add a new type of [Employee](https://github.com/br1code/cleancode-exercises-neorislab/blob/master/SimplificationExercise/Exercise3/Employee.cs) without modifying anything
 
+
+###For security reasons, **NEORIS** public repositories should be closed. So we request to close this repository shortly
+
