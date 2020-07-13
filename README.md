@@ -309,6 +309,7 @@ public class Salesman : Employee
 ```C#
 public class Manager : Employee
 {
+**Hello**
     public override double GetPaymentAmount()
     {
         return MonthlySalary + Bonus;
